@@ -1,0 +1,42 @@
+<!--
+    Cascading Style Sheets - for styling web pages
+    This example shows design redundancy and css inline code that is hard to maintain,
+    gets refactored to head for easier maintainance as structure is separated from style.
+    Last change is relocating style code to a css file, so that the style can be applied t0 multiple pages. 
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Hello Styled</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- <style>
+            h1 {
+                color: magenta;
+                text-align: center;
+            }
+            h2 {
+                color: pink;
+                text-align: center;
+            }
+        </style> -->
+    </head>
+
+    <body>
+    <!-- <body style="color: magenta; text-align: center;"> -->
+
+        <!-- using ids to refencing elements in a unique way, 
+            a class is a way to giving a name to multiple html elements 
+        -->
+        <!-- <h1 id="enemy">Welcome to my Web Page</h1>
+        <h1 id="foo">This is a second heading</h1>
+        <h1 id="friend">Third heading over here</h1> -->
+        <h1 class="baz">Welcome to my Web Page</h1>
+        <h1 class="baz">This is a second heading</h1>
+        <h1 id="friend">Third heading over here</h1>
+        <!-- <h1 style="color: pink; text-align: center;">Welcome to my Web Page</h1> -->
+        Hello, world!
+    </body>
+
+</html>

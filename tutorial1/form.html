@@ -6,11 +6,72 @@
     </head>
 
     <body>
-        <!-- text = the type of input being entered
+        <!--text = the type of input being entered
             placeholder = default text inside the field
-            name = name is there to help us referece which input field corresponds to the data entered
-        -->
-        <input type="text" placeholder="Full Nmae" name="user_name">
+            name = name is there to help us referece which input field corresponds to which value.        -->
+        <form>
+            <div>
+                <input type="text" placeholder="Full Name" name="user_name">
+                <input type="password" placeholder="Password" name="password">
+                <!-- <input type="submit"> -->
+            </div>
+
+            <div>
+                Favourite colour?
+                <input name="colour" type="radio" value="red">Red
+                <input name="colour" type="radio" value="green">Green
+                <input name="colour" type="radio" value="yellow">Yellow
+                <input name="colour" type="radio" value="pink">Pink
+                <input name="colour" type="radio" value="purple">Purple
+            </div>
+
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Afghanistan">
+                    <option value="Albania">
+                    <option value="Algeria">
+                    <option value="Andorra">
+                    <option value="Angola">
+                    <option value="Antigua & Deps">
+                    <option value="Afghanistan">
+                    <option value="Argentina">
+                    <option value="Armenia">
+                    <option value="Australia">
+                    <option value="Azerbaijan">
+                    <option value="Bahamas">
+                    <option value="Bahrain">
+                    <option value="Bangladesh">
+                    <option value="Belarus">
+                    <option value="Belgium">
+                    <option value="Belize">
+                    <option value="Benin">
+                    <option value="Bhutan">
+                    <option value="Bolivia">
+                    <option value="Bosnia and Herzegovina">
+                    <option value="Botswana">
+                    <option value="Brazil">
+                    <option value="Brunei">
+                    <option value="Bulgaria">
+                    <option value="Burkana Faso">
+                    <option value="Burundi">
+                    <option value="Cabo Verde">
+                    <option value="Cambodia">
+                    <option value="Cameroon">
+                    <option value="Canada">
+                    <option value="Central African Republic">
+                    <option value="Chile">
+                    <option value="China">
+                    <option value="Colombia">
+                    <option value="Comoros">                            
+                        
+                </datalist>
+
+            </div>
+            
+          
+
+        </form>
     </body>
 
 </html>
